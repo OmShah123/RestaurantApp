@@ -2,23 +2,41 @@
 //  ContentView.swift
 //  RestaurantApp
 //
-//  Created by Shah, Om on 4/24/24.
+//  Created by Shah, Om on 3/24/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: ProfileView()) {
+                    Text("Profile")
+                }
+                .padding()
+                
+                NavigationLink(destination: TaxCalculatorView()) {
+                    Text("Tax Calculator")
+                }
+                .padding()
+                
+                NavigationLink(destination: ExpenseSplitterView()) {
+                    Text("Expense Splitter")
+                }
+                .padding()
+                
+     
+                
+             
+            }
+            .navigationTitle("Restaurant App")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

@@ -11,6 +11,9 @@
 		714517512BD8F050007A30A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714517502BD8F050007A30A8 /* ContentView.swift */; };
 		714517532BD8F052007A30A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714517522BD8F052007A30A8 /* Assets.xcassets */; };
 		714517562BD8F052007A30A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714517552BD8F052007A30A8 /* Preview Assets.xcassets */; };
+		7145175D2BD8F08D007A30A8 /* ExpenseSplitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145175C2BD8F08D007A30A8 /* ExpenseSplitterView.swift */; };
+		7145175F2BD8F0D3007A30A8 /* TaxCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145175E2BD8F0D3007A30A8 /* TaxCalculatorView.swift */; };
+		714517612BD8F102007A30A8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714517602BD8F102007A30A8 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		714517502BD8F050007A30A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		714517522BD8F052007A30A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714517552BD8F052007A30A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7145175C2BD8F08D007A30A8 /* ExpenseSplitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSplitterView.swift; sourceTree = "<group>"; };
+		7145175E2BD8F0D3007A30A8 /* TaxCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculatorView.swift; sourceTree = "<group>"; };
+		714517602BD8F102007A30A8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				7145174E2BD8F050007A30A8 /* RestaurantAppApp.swift */,
 				714517502BD8F050007A30A8 /* ContentView.swift */,
+				7145175C2BD8F08D007A30A8 /* ExpenseSplitterView.swift */,
+				7145175E2BD8F0D3007A30A8 /* TaxCalculatorView.swift */,
+				714517602BD8F102007A30A8 /* ProfileView.swift */,
 				714517522BD8F052007A30A8 /* Assets.xcassets */,
 				714517542BD8F052007A30A8 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7145175F2BD8F0D3007A30A8 /* TaxCalculatorView.swift in Sources */,
+				7145175D2BD8F08D007A30A8 /* ExpenseSplitterView.swift in Sources */,
+				714517612BD8F102007A30A8 /* ProfileView.swift in Sources */,
 				714517512BD8F050007A30A8 /* ContentView.swift in Sources */,
 				7145174F2BD8F050007A30A8 /* RestaurantAppApp.swift in Sources */,
 			);
